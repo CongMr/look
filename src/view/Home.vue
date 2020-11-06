@@ -1,19 +1,23 @@
 <template>
   <div>
     <Header></Header>
-    <Swiper></Swiper>
+    <HomeSwiper></HomeSwiper>
+    <div>texts</div>
   </div>
 </template>
 
 <script>
 import Header from "@/components/home/Header";
-import Swiper from "@/components/home/Swiper";
+import HomeSwiper from "@/components/home/HomeSwiper";
+
 export default {
   name: "Home",
   components: {
     Header,
-    Swiper
-  }
+    HomeSwiper
+  },
+
+
 }
 </script>
 
